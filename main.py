@@ -145,5 +145,5 @@ for crypto in crypto_search_tickers:
         df_all.loc[:,crypto] = pd.Series(df[crypto], index=df.index)
     i += 1
 
-name_df = f"/home/mikel/mikel_wind/BINANCE/data/crypto_df_{args.initial_date}-{args.final_date}-FREQ-{args.freq}"
+name_df = f"crypto_df_{args.initial_date}-{args.final_date}-FREQ-{args.freq}"
 df_all.to_csv(name_df+'.csv')
