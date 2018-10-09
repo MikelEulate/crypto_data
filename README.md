@@ -1,7 +1,7 @@
 # CRYPTO DATA
 
 This script is aimed to get cryptocurrency data from Binance exange chosing the initial date, final date and the frequency of the data. There are two types of data retrieving:
-* Retrieve all data (OHLC, Volume, bid, ask, etc.) of a single crypto
+* Retrieve all data of a single crypto (OHLC, Volume, bid, ask, etc.)
 * Retrieve close prices for currencies greather than 1e9 market cap
 
 ## Dependencies
