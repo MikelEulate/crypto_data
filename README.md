@@ -5,14 +5,15 @@ This script is aimed to get cryptocurrency data from Binance exange chosing the 
 * Retrieve close prices for currencies greather than 1e9 market cap
 
 ## Dependencies
-* pandas
-* numpy
-* Beautifilsoup
-* requests
-* time
-* json
-* python-binance
-
+```
+pandas
+numpy
+Beautifilsoup
+requests
+time
+json
+python-binance
+```
 
 ## Running the scripts
 ### All Cryptos
