@@ -4,7 +4,7 @@ This script is aimed to get cryptocurrency data from Binance exange chosing the 
 * Retrieve all data (OHLC, Volume, bid, ask, etc.) of a single crypto
 * Retrieve close prices for currencies greather than 1e9 market cap
 
-### Dependencies
+## Dependencies
 * pandas
 * numpy
 * Beautifilsoup
@@ -14,8 +14,8 @@ This script is aimed to get cryptocurrency data from Binance exange chosing the 
 * python-binance
 
 
-### Running the scripts
-#### All Cryptos
+## Running the scripts
+### All Cryptos
 The script to run is called 'main.py'. This cript need 3 parameters:
 * --I: initial_date. The initial date that is going to start the data retrieving
 * --F: final_date. The end date to retrieve the data
@@ -26,7 +26,7 @@ Eg. of the running script:
 $ python main.py --I '2017-06-01' --F '2018-10-06' --Freq '1h'
 ```
 
-#### Single Crypto
+### Single Crypto
 The script to run is called 'single_crypto_data.py'. This cript need 4 parameters:
 * --C: cryptocurrency ticker. The ticker of the crypto without the Fiat currency. Eg: 'BTC', 'ETH', 'LTC', 'IOTA', etc.
 * --I: initial_date. The initial date that is going to start the data retrieving
