@@ -17,7 +17,7 @@ python-binance
 
 ## Running the scripts
 ### All Cryptos
-The script to run is called 'main.py'. This cript need 3 parameters:
+The script to run is called 'main.py'. This script need 3 parameters:
 * --I: initial_date. The initial date that is going to start the data retrieving
 * --F: final_date. The end date to retrieve the data
 * --Freq: freq. Frequency of the data stored. The list of supported frequencies are: ['1m', '3m', '5m', '15m', '30m', '1h', '2h', '4h', '6h', '8h', '12h','1d','3d', '1w', '1M']
@@ -28,7 +28,7 @@ $ python main.py --I '2017-06-01' --F '2018-10-06' --Freq '1h'
 ```
 
 ### Single Crypto
-The script to run is called 'single_crypto_data.py'. This cript need 4 parameters:
+The script to run is called 'single_crypto_data.py'. This script need 4 parameters:
 * --C: cryptocurrency ticker. The ticker of the crypto without the Fiat currency. Eg: 'BTC', 'ETH', 'LTC', 'IOTA', etc.
 * --I: initial_date. The initial date that is going to start the data retrieving
 * --F: final_date. The end date to retrieve the data
