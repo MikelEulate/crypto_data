@@ -1,0 +1,7 @@
+pandas
+numpy
+Beautifilsoup
+requests
+time
+json
+python-binance
