@@ -15,6 +15,13 @@ json
 python-binance
 ```
 
+## Requirements
+Run
+
+```
+$ pip install -r requirements.txt
+```
+
 ## Running the scripts
 ### All Cryptos
 The script to run is called 'main.py'. This script need 3 parameters:
